@@ -12,7 +12,7 @@ class Boxer:
 
 vasily = Boxer(25, 100, 150)
 
-class Person():
+class Person:
     def __init__(self, age, first_name, second_name, birthday_month):
         self.age = age
         self.first_name = first_name
