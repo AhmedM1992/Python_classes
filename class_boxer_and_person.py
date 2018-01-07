@@ -1,4 +1,5 @@
 class Boxer:
+
     def __init__(self, age, weight, height):
         self.age = age
         self.weight = weight
@@ -12,7 +13,9 @@ class Boxer:
 
 vasily = Boxer(25, 100, 150)
 
+
 class Person:
+
     def __init__(self, age, first_name, second_name, birthday_month):
         self.age = age
         self.first_name = first_name
@@ -28,7 +31,7 @@ class Person:
     def birthday_season(self):
         if self.birthday_month in ['January', 'February', 'December']:
             return 'Winter'
-        elif  self.birthday_month in ['March', 'April', 'May']:
+        elif self.birthday_month in ['March', 'April', 'May']:
             return 'Spring'
         elif self.birthday_month in ['June', 'July', 'August']:
             return 'Summer'
